@@ -2,6 +2,20 @@
 
 ### Author: Hunter Bernier
 
+## Screenshots of the Game:
+
+### Start Menu
+
+![Start Menu](./screenshots/Start-Menu.jpg)
+
+### Quiz Unanswered
+
+![Quiz Unanswered](./screenshots/Quiz-Unanswered.jpg)
+
+### Quiz Answered
+
+![Quiz Answered](./screenshots/Quiz-Answered.jpg)
+
 ## About the Code:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,10 +28,6 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The project can also be viewed at:
-
-_place the url here_
 
 ## How the game works:
 
