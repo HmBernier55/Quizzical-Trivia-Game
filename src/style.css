@@ -1,0 +1,133 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+.start-screen {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-title {
+  font-size: 2rem;
+  color: #293264;
+  margin-bottom: 7px;
+}
+
+.start-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #293264;
+  margin-bottom: 30px;
+}
+
+.start-button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #293264;
+}
+
+.start-button:active,
+.answer-button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.trivia-board {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px 0 100px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.question-title {
+  font-size: 1rem;
+  color: #293264;
+}
+
+.answers {
+  display: flex;
+  gap: 13px;
+}
+
+.answer-button {
+  width: fit-content;
+  min-width: 65px;
+  height: 20px;
+  padding: 0 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.625rem;
+  background-color: #f5f7fb;
+  color: #293264;
+  border-radius: 8px;
+  border: 0.8px solid #4d5b9e;
+  cursor: pointer;
+}
+
+.answer-button:hover {
+  background-color: #d6dbf5;
+}
+
+hr {
+  color: #dbdef0;
+  opacity: 0.3;
+}
+
+.answer-check {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check-button {
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 10px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.625rem;
+  cursor: pointer;
+}
+
+.score {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin-right: 20px;
+  color: #293264;
+}
